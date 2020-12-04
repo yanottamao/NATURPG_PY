@@ -1,6 +1,9 @@
+# looks like not needed
+'''
 # pl_name = input("Enter player name: ")
 def player(playern):
     print(playern)
+'''
 
 
 def player_name():
@@ -42,41 +45,48 @@ def player_job():
     return pl_stat
 
 
-'''
-Intial stat guide
-fighter:        attack:     best
-                stamina:    best
-                magic:      low
-
-swordsman:      attack:     best
-                stamina:    mid
-                magic:      mid
-
-mage:           attack:     best
-                stamina:    low
-                magic:      best
-
-healer:         attack:     mid
-                stamina:    best
-                magic:      mid
+# looks like not needed
 '''
 
+# Intial stat guide
+# fighter:        attack:     best
+#                 stamina:    best
+#                 magic:      low
 
-def fighter_stat():
-    print('Player Stat')
-    print('Health: ')
-    print('Stamina: ')
-    print('Magic: ')
+# swordsman:      attack:     best
+#                 stamina:    mid
+#                 magic:      mid
+
+# mage:           attack:     best
+#                 stamina:    low
+#                 magic:      best
+
+# healer:         attack:     mid
+#                 stamina:    best
+#                 magic:      mid
+
+
+
+# def fighter_stat():
+#     print('Player Stat')
+#     print('Health: ')
+#     print('Stamina: ')
+#     print('Magic: ')
 
 
 def main(pl_name, pl_stat):
     # player_name()     ->  salah
     # player_job()      ->  salah
-    print('Player name is ' + pl_name)
-    print('Player job is ' + pl_stat)
+    # print('Player name is ' + pl_name)
+    # print('Player job is ' + pl_stat)
+    print('Main executed')
+    return pl_name, pl_stat
 
 
 if __name__ == "__main__":
     pl_name = player_name()     # pemanggilan yg benar
     pl_stat = player_job()      # pemanggilan yg benar
+    print('if main executed')
     main(pl_name, pl_stat)
+
+'''
