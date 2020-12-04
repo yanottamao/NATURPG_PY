@@ -19,7 +19,7 @@ def player_name():
 
 def player_job():
     global pl_stat
-    print('Job list:')
+    print('\nJob list:')
     print('1. Fighter')
     print('2. Swordsman')
     print('3. Mage')
