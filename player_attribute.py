@@ -1,5 +1,5 @@
 import random
-import player
+# import player     looks like not needed for now
 
 '''
 Intial stat guide
