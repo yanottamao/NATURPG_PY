@@ -1,5 +1,6 @@
 import player
 import player_attribute
+import turn
 
 
 def main():
@@ -13,6 +14,7 @@ def main():
     print('Player job is ' + pl_stat + '\n')
     if pl_stat == 'fighter':
         pl_attr = player_attribute.player_fighter()
+        pl_turn = turn.turn_func()
     elif pl_stat == 'swordsman':
         pl_attr = player_attribute.player_swordsman()
     elif pl_stat == 'mage':
