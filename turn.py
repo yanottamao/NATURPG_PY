@@ -3,11 +3,16 @@
 import player_attribute
 
 
-def turn_func():
-    pl_health = player_attribute.player_fighter
-    # while pl_health != 0:
-    turn_num = 0
-    turn_num += 1
-    print(pl_health)
-    print(turn_num)
-    # pl_health -= 20
+def turn_counter():
+    count = 100
+    while count != 0:
+        print('Count: ' + str(count))
+        count -= 1
+
+
+pl_health = ''
+turn_counter()
+print(player_attribute.player_fighter(pl_health))
+health = player_attribute.player_fighter(pl_health)
+print(health)
+# def dec_health():

@@ -20,8 +20,10 @@ healer:         attack:     mid     70 - 80
                 magic:      mid     70 - 80
 '''
 
+pl_health = ''
 
-def player_fighter():
+
+def player_fighter(pl_health):
     print('Player Stat: Fighter')
     pl_health = 100
     print('Health:  ' + str(pl_health))
